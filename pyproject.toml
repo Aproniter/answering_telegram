@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telebot-test"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Belokrylov <ivan.belokrylov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "telebot_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+pyrogram = "^2.0.106"
+sqlalchemy = "^2.0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
